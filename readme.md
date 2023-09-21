@@ -30,7 +30,7 @@ Si deseas clonar este repositorio y ejecutarlo localmente, sigue estos pasos:
 1. Clona este repositorio en tu máquina local:
 
    ```shell
-   git clone https://github.com/tu-usuario/portafolio-equipo-4.git
+   git clone https://github.com/AndersonDavidPC/Portafolio_PhoenixTeam_AyD.git
    ````
 2. Abre el archivo `index.html` en tu navegador web.
 
