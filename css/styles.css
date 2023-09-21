@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.integrantes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.integrante {
+    text-align: center;
+    margin: 20px;
+}
+
+.integrante img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.integrante p{
+    margin: 20px 0;
+    font-size: 1.1em;
+}
+
+.descripcion-proyecto, .tecnologias, .avances, .talleres, .investigaciones, .apuntes {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.descripcion-proyecto h2, .tecnologias h2, .avances h2, .talleres h2, .investigaciones h2, .apuntes h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+   
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos adicionales para hacer el diseño atractivo y moderno */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.integrante h2 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.descripcion-proyecto p {
+    font-size: 1.1em;
+}
+
+/* .tecnologias ul, .talleres ul {
+    padding-left: 20px;
+} */
+
+.tecnologias {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.tecnologia-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tecnologia-icon img {
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%; */
+    padding: 10px;
+}
+
+.tecnologia-info {
+    text-align: center;
+}
+
+.tecnologia-info h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.tecnologia-info p {
+    font-size: 1.1em;
+}
+
+.investigaciones-card--container {
+    display: flex;
+}
+
+.investigacion-card {
+    padding: 0 20px;
+}
+
+.avances p, .investigaciones p, .apuntes p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilos específicos para dispositivos móviles (ancho de pantalla menor a 768px) */
+@media (max-width: 768px) {
+    .tecnologia-card {
+        flex-direction: column;
+    }
+    .investigaciones-card--container {
+        flex-direction: column;
+    }
+    .investigacion-card {
+        padding: 0;
+        align-self: center;
+    }
+}
