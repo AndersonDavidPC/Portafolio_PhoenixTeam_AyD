@@ -123,12 +123,22 @@ footer {
     font-size: 1.1em;
 }
 
-.investigaciones-card--container {
+.documents-card--container {
     display: flex;
 }
 
-.investigacion-card {
-    padding: 0 20px;
+.document-card {
+    padding: 10px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* hoover */
+.document-card:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10%;
 }
 
 .avances p, .investigaciones p, .apuntes p {
@@ -152,11 +162,12 @@ a:hover {
     .tecnologia-card {
         flex-direction: column;
     }
-    .investigaciones-card--container {
+    .documents-card--container {
         flex-direction: column;
     }
-    .investigacion-card {
+    .document-card {
         padding: 0;
+        width: 100%;
         align-self: center;
     }
 }

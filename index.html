@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Portafolio Equipo #4</title>
+    <title>Portafolio Equipo #2</title>
     <link rel="icon" href="./assets/icons/briefcase.ico">
+    <script src="./js/main.js"></script>
 </head>
 <body>
     <header>
@@ -108,32 +109,60 @@
     </section> -->
     <section class="investigaciones">
         <h2>Investigaciones</h2>
-        <div class="investigaciones-card--container">
-            <div class="investigacion-card">
-                <div class="icono-investigacion">
-                    <img src="./assets/icons/icons8-pdf-100.png" alt="PDF">
-                </div>
-                <div class="investigacion-info">
-                    <h3>Investigación 1</h3>
-                    <a href="documento1.pdf" target="_blank">Ver Documento</a>
-                </div>
-            </div>
-            <div class="investigacion-card">
-                <div class="icono-investigacion">
+        <div class="documents-card--container">
+            
+            <div class="document-card" onclick="redirectToDocument('https://docs.google.com/document/d/1B_xheyQw2KUNhTUTjmqKTToV4OdoHNI9/edit?usp=sharing&ouid=117835305341655129621&rtpof=true&sd=true')">
+                <div class="icon-document">
                     <img src="./assets/icons/icons8-document.svg" alt="Word">
                 </div>
-                <div class="investigacion-info">
-                    <h3>Investigación 2</h3>
-                    <a href="documento2.docx" target="_blank">Ver Documento</a>
+                <div class="document-info">
+                    <h4>SI y Ciclos de vida</h4>
                 </div>
             </div>
         </div>
-        
     </section>
     
     <section class="apuntes">
         <h2>Apuntes</h2>
-        <p>En esta sección, puedes compartir apuntes relevantes relacionados con el proyecto.</p>
+        <div class="documents-card--container">
+
+            <div class="document-card" onclick="redirectToDocument('https://docs.google.com/document/d/1kbygXdquuo4eFYyQJInk4FUwE6BOdEsSCGfQHC_qiuA/edit?usp=drive_link')">
+                <div class="icon-document">
+                    <img src="./assets/icons/icons8-document.svg" alt="Word">
+                </div>
+                <div class="document-info">
+                    <h4>Clase 7/09/2023</h4>
+                </div>
+            </div>
+
+            <div class="document-card" onclick="redirectToDocument('https://docs.google.com/document/d/1MQyYm412MZN8Thp7n9u_GOZpOsT23-XEjiJOpyDNpPo/edit?usp=drive_link')">
+                <div class="icon-document">
+                    <img src="./assets/icons/icons8-document.svg" alt="Word">
+                </div>
+                <div class="document-info">
+                    <h4>Clase 12/09/2023</h4>
+                </div>
+            </div>
+
+            <div class="document-card" onclick="redirectToDocument('https://docs.google.com/document/d/1JaR30YAWU9I19YzJ_B3PTAocndvwcPKXwUxvNog1zNs/edit?usp=drive_link')">
+                <div class="icon-document">
+                    <img src="./assets/icons/icons8-document.svg" alt="Word">
+                </div>
+                <div class="document-info">
+                    <h4>Clase 14/09/2023</h4>
+                </div>
+            </div>
+
+            <div class="document-card" onclick="redirectToDocument('https://docs.google.com/document/d/1l2yC7KoxLMnRL9Tgj-D3UB-rmw6Y9A1PaUPVuDGn4dE/edit?usp=drive_link')">
+                <div class="icon-document">
+                    <img src="./assets/icons/icons8-document.svg" alt="Word">
+                </div>
+                <div class="document-info">
+                    <h4>Clase 19/09/2023</h4>
+                </div>
+            </div>
+
+        </div>
     </section>
 </body>
 </html>
