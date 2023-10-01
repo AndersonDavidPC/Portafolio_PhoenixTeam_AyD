@@ -124,7 +124,9 @@ footer {
 }
 
 .documents-card--container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Grilla dinámica con columnas automáticas */
+    grid-gap: 20px;
 }
 
 .document-card {
