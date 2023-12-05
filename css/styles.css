@@ -82,6 +82,44 @@ footer {
     font-size: 1.1em;
 }
 
+/* Estilos del carrusel */
+.carrusel-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .carrusel-slider {
+    display: flex;
+  }
+  
+  .carrusel-item {
+    flex: 0 0 auto;
+    display: none;
+  }
+  
+  .carrusel-item.active {
+    display: block;
+  }
+  
+  .carrusel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .carrusel-btn-prev {
+    left: 10px;
+  }
+  
+  .carrusel-btn-next {
+    right: 10px;
+  }
+  
 
 .tecnologias {
     background-color: white;
