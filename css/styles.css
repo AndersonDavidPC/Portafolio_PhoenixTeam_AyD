@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
+    background-color: #ececec;
 }
 
 header {
@@ -41,13 +41,13 @@ h1 {
     font-size: 1.1em;
 }
 
-.descripcion-proyecto, .tecnologias, .avances, .talleres, .investigaciones, .apuntes {
+.descripcion-proyecto, .tecnologias, .content-block{
     background-color: white;
     padding: 20px;
     margin: 20px;
 }
 
-.descripcion-proyecto h2, .tecnologias h2, .avances h2, .talleres h2, .investigaciones h2, .apuntes h2 {
+.descripcion-proyecto h2, .tecnologias h2, .content-block h2{
     color: #333;
 }
 
@@ -82,9 +82,6 @@ footer {
     font-size: 1.1em;
 }
 
-/* .tecnologias ul, .talleres ul {
-    padding-left: 20px;
-} */
 
 .tecnologias {
     background-color: white;
@@ -143,7 +140,7 @@ footer {
     border-radius: 10%;
 }
 
-.avances p, .investigaciones p, .apuntes p {
+.content-block p{
     line-height: 1.6;
     font-size: 1.1em;
 }
