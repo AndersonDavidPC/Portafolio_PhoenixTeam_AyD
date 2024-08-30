@@ -22,6 +22,3 @@ document.querySelector('.carrusel-btn-next').addEventListener('click', function(
 });
 
 showItem(currentItem); // Mostrar el primer elemento al cargar la página
-
-document.querySelector('.carrusel').appendChild(prevBtn);
-document.querySelector('.carrusel').appendChild(nextBtn);

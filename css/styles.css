@@ -14,6 +14,7 @@ header {
 
 h1 {
     margin: 0;
+    font-size: 2.5em;
 }
 
 .integrantes {
@@ -38,7 +39,13 @@ h1 {
 
 .integrante p{
     margin: 20px 0;
-    font-size: 1.1em;
+    font-size: 1.6em;
+}
+
+.integrante a {
+    color: #4e1d5f;
+    text-decoration: none;
+    text-shadow: #909090 1px 1px 0;
 }
 
 .descripcion-proyecto, .tecnologias, .content-block{
@@ -75,7 +82,7 @@ footer {
 
 .integrante h2 {
     margin: 10px 0;
-    font-size: 1.2em;
+    font-size: 2em;
 }
 
 .descripcion-proyecto p {
@@ -181,16 +188,6 @@ footer {
 .content-block p{
     line-height: 1.6;
     font-size: 1.1em;
-}
-
-/* Estilos para enlaces */
-a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 
