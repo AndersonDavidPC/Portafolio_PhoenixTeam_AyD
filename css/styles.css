@@ -1,207 +1,223 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ececec;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ececec;
 }
 
 header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
 }
 
 h1 {
-    margin: 0;
-    font-size: 2.5em;
+  margin: 0;
+  font-size: 2.5em;
 }
 
 .integrantes {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
 .integrante {
-    text-align: center;
-    margin: 20px;
+  text-align: center;
+  margin: 20px;
 }
 
 .integrante img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.integrante p{
-    margin: 20px 0;
-    font-size: 1.6em;
+.integrante p {
+  margin: 20px 0;
+  font-size: 1.6em;
 }
 
 .integrante a {
-    color: #4e1d5f;
-    text-decoration: none;
-    text-shadow: #909090 1px 1px 0;
+  color: #4e1d5f;
+  text-decoration: none;
+  text-shadow: #909090 1px 1px 0;
 }
 
-.descripcion-proyecto, .tecnologias, .content-block{
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
+.descripcion-proyecto,
+.tecnologias,
+.content-block {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
 }
 
-.descripcion-proyecto h2, .tecnologias h2, .content-block h2{
-    color: #333;
+.descripcion-proyecto h2,
+.tecnologias h2,
+.content-block h2 {
+  color: #333;
 }
 
 ul {
-    list-style-type: none;
-   
+  list-style-type: none;
 }
 
 ul li {
-    padding: 5px 0;
+  padding: 5px 0;
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
 }
 
 /* Estilos adicionales para hacer el diseño atractivo y moderno */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .integrante h2 {
-    margin: 10px 0;
-    font-size: 2em;
+  margin: 10px 0;
+  font-size: 2em;
 }
 
 .descripcion-proyecto p {
-    font-size: 1.1em;
+  font-size: 1.1em;
+}
+
+.map-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+iframe {
+  border: 0;
+  width: 80%;
+  height: 450px;
 }
 
 /* Estilos del carrusel */
 .carrusel-container {
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-  }
-  
-  .carrusel-slider {
-    display: flex;
-  }
-  
-  .carrusel-item {
-    flex: 0 0 auto;
-    display: none;
-  }
-  
-  .carrusel-item.active {
-    display: block;
-  }
-  
-  .carrusel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
-  .carrusel-btn-prev {
-    left: 10px;
-  }
-  
-  .carrusel-btn-next {
-    right: 10px;
-  }
-  
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.carrusel-slider {
+  display: flex;
+}
+
+.carrusel-item {
+  flex: 0 0 auto;
+  display: none;
+}
+
+.carrusel-item.active {
+  display: block;
+}
+
+.carrusel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.carrusel-btn-prev {
+  left: 10px;
+}
+
+.carrusel-btn-next {
+  right: 10px;
+}
 
 .tecnologias {
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
 }
 
 .tecnologia-card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .tecnologia-icon img {
-    width: 100px;
-    height: 100px;
-    /* border-radius: 50%; */
-    padding: 10px;
+  width: 100px;
+  height: 100px;
+  /* border-radius: 50%; */
+  padding: 10px;
 }
 
 .tecnologia-info {
-    text-align: center;
+  text-align: center;
 }
 
 .tecnologia-info h3 {
-    margin: 10px 0;
-    font-size: 1.2em;
+  margin: 10px 0;
+  font-size: 1.2em;
 }
 
 .tecnologia-info p {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 .documents-card--container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Grilla dinámica con columnas automáticas */
-    grid-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(250px, 1fr)
+  ); /* Grilla dinámica con columnas automáticas */
+  grid-gap: 20px;
 }
 
 .document-card {
-    padding: 10px 20px 0 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
+  padding: 10px 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
 }
 
 /* hoover */
 .document-card:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10%;
 }
 
-.content-block p{
-    line-height: 1.6;
-    font-size: 1.1em;
+.content-block p {
+  line-height: 1.6;
+  font-size: 1.1em;
 }
-
 
 /* Estilos específicos para dispositivos móviles (ancho de pantalla menor a 768px) */
 @media (max-width: 768px) {
-    .tecnologia-card {
-        flex-direction: column;
-    }
-    .documents-card--container {
-        flex-direction: column;
-    }
-    .document-card {
-        padding: 0;
-        width: 100%;
-        align-self: center;
-    }
+  .tecnologia-card {
+    flex-direction: column;
+  }
+  .documents-card--container {
+    flex-direction: column;
+  }
+  .document-card {
+    padding: 0;
+    width: 100%;
+    align-self: center;
+  }
 }

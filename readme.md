@@ -1,7 +1,6 @@
 # Portafolio del Equipo de Trabajo #2 de Análisis y Diseño de Sistemas de Información UFPS 2023-1 "PhoenixTeam"
 
-Este repositorio contiene el código fuente y los recursos para el portafolio en línea del Equipo de Trabajo *"PhoenixTeam"*. El portafolio presenta información sobre los integrantes del equipo, descripción del proyecto, tecnologías utilizadas, avances, talleres, investigaciones y apuntes relacionados con nuestros proyectos y trabajos.
-
+Este repositorio contiene el código fuente y los recursos para el portafolio en línea del Equipo de Trabajo _"PhoenixTeam"_. El portafolio presenta información sobre los integrantes del equipo, descripción del proyecto, tecnologías utilizadas, avances, talleres, investigaciones y apuntes relacionados con nuestros proyectos y trabajos.
 
 ## Contenido
 
@@ -31,7 +30,8 @@ Si deseas clonar este repositorio y ejecutarlo localmente, sigue estos pasos:
 
    ```shell
    git clone https://github.com/AndersonDavidPC/Portafolio_PhoenixTeam_AyD.git
-   ````
+   ```
+
 2. Abre el archivo `index.html` en tu navegador web.
 
 ## Contribuciones
@@ -42,20 +42,20 @@ Si deseas contribuir con este proyecto, puedes hacerlo de las siguientes formas:
 
 2. Crea una rama nueva para tu contribución:
 
-````shell
+```shell
 git checkout -b mi-rama
-````
+```
 
 3. Realiza tus cambios y commitéalo:
 
-````shell
+```shell
 git commit -m "Mi contribución"
-````
+```
 
 4. Sube tus cambios a tu repositorio:
 
-````shell
+```shell
 git push origin mi-rama
-````
+```
 
 5. Crea un pull request para que tu contribución sea integrada al proyecto.
