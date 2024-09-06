@@ -12,43 +12,40 @@ header {
   padding: 20px 0;
 }
 
+nav {
+  color: white;
+  text-align: center;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  height: 100%;
+}
+
+nav ul li {
+  display: inline;
+  border: 1px solid #6b6b6b;
+  margin: 0 5px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  height: 100%;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  height: 100%;
+}
+
 h1 {
   margin: 0;
   font-size: 2.5em;
 }
 
-.integrantes {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 20px;
-}
-
-.integrante {
-  text-align: center;
-  margin: 20px;
-}
-
-.integrante img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.integrante p {
-  margin: 20px 0;
-  font-size: 1.6em;
-}
-
-.integrante a {
-  color: #4e1d5f;
-  text-decoration: none;
-  text-shadow: #909090 1px 1px 0;
-}
-
-.descripcion-proyecto,
 .tecnologias,
 .content-block {
   background-color: white;
@@ -56,7 +53,6 @@ h1 {
   margin: 20px;
 }
 
-.descripcion-proyecto h2,
 .tecnologias h2,
 .content-block h2 {
   color: #333;
@@ -81,27 +77,6 @@ footer {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.integrante h2 {
-  margin: 10px 0;
-  font-size: 2em;
-}
-
-.descripcion-proyecto p {
-  font-size: 1.1em;
-}
-
-.map-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-iframe {
-  border: 0;
-  width: 80%;
-  height: 450px;
 }
 
 /* Estilos del carrusel */
@@ -205,26 +180,6 @@ iframe {
 .content-block p {
   line-height: 1.6;
   font-size: 1.1em;
-}
-
-.card--container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.card {
-  width: 300px;
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.card:hover {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
 }
 
 /* Estilos específicos para dispositivos móviles (ancho de pantalla menor a 768px) */
