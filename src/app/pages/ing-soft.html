@@ -29,11 +29,11 @@
     <main>
       <section class="evidencias carrusel content-block">
         <h2>Vistas</h2>
-        <!-- <div class="carrusel-container">
+        <div class="carrusel-container">
           <div class="carrusel-slider">
             <div class="carrusel-item active">
               <img
-                src="../../../assets/Layouts proyecto/lyt1_form.png"
+                src="../../../assets/Layouts proyecto/is-ly1.png"
                 alt="Layout form login"
               />
             </div>
@@ -52,7 +52,7 @@
           </div>
           <button class="carrusel-btn carrusel-btn-prev">&#10094;</button>
           <button class="carrusel-btn carrusel-btn-next">&#10095;</button>
-        </div> -->
+        </div>
       </section>
 
       <section class="content-block">
@@ -90,7 +90,10 @@
           <h3 class="capa">Capa de presentación</h3>
           <div class="tecnologia-card">
             <div class="tecnologia-icon">
-              <img src="../../../assets/icons/Angular_full_color_logo.svg" alt="Angular" />
+              <img
+                src="../../../assets/icons/Angular_full_color_logo.svg"
+                alt="Angular"
+              />
             </div>
             <div class="tecnologia-info">
               <h3>Angular</h3>
@@ -171,36 +174,85 @@
             </div>
           </div>
           <h3 class="capa">Capa de lógica de negocio</h3>
+          <!-- NodeJS -->
           <div class="tecnologia-card">
             <div class="tecnologia-icon">
-              <img src="../../../assets/icons/Django_logo.svg" alt="Django" />
+              <img src="../../../assets/icons/Node.js_logo.svg" alt="Node JS" />
             </div>
             <div class="tecnologia-info">
-              <h3>Django</h3>
+              <h3>Node JS</h3>
               <p>
-                Java es un lenguaje de programación de alto nivel, orientado a
-                objetos y de propósito general. Java se utiliza para desarrollar
-                aplicaciones de escritorio, aplicaciones móviles, aplicaciones
-                web y servidores. Java es interoperable, seguro, portátil,
-                robusto y dinámico. Se utiliza para desarrollar aplicaciones de
-                escritorio, aplicaciones móviles, aplicaciones web y servidores.
-                Java es interoperable, seguro, portátil, robusto y dinámico.
+                Node.js es un entorno de ejecución de JavaScript de código
+                abierto y multiplataforma que se utiliza para ejecutar
+                JavaScript en el servidor. Node.js se utiliza para desarrollar
+                aplicaciones web y servidores. Node.js es rápido, escalable y
+                eficiente. Node.js utiliza el motor V8 de Google Chrome para
+                ejecutar JavaScript.
               </p>
             </div>
           </div>
+          <!-- Express -->
           <div class="tecnologia-card">
             <div class="tecnologia-icon">
-              <img src="../../../assets/icons/Python-logo-notext.svg" alt="Python" />
+              <img
+                src="../../../assets/icons/Expressjs_logo.svg"
+                alt="Express"
+              />
             </div>
             <div class="tecnologia-info">
-              <h3>Python</h3>
+              <h3>Express</h3>
               <p>
-                Python es un lenguaje de programación de alto nivel,
-                interpretado y de propósito general. Python se utiliza para
-                desarrollar aplicaciones de escritorio, aplicaciones móviles,
-                aplicaciones web y servidores. Python es fácil de aprender,
-                fácil de leer y fácil de escribir. Python es fácil de aprender,
-                fácil de leer y fácil de escribir.
+                Express es un marco de desarrollo de aplicaciones web de código
+                abierto y flexible para Node.js. Express se utiliza para
+                desarrollar aplicaciones web y servidores. Express es rápido,
+                escalable y eficiente. Express es rápido, escalable y eficiente.
+              </p>
+            </div>
+          </div>
+          <!-- Sequelize -->
+          <div class="tecnologia-card">
+            <div class="tecnologia-icon">
+              <img src="../../../assets/icons/Sequelize.svg" alt="Sequelize" />
+            </div>
+            <div class="tecnologia-info">
+              <h3>Sequelize</h3>
+              <p>
+                Sequelize es un ORM de Node.js de código abierto que se utiliza
+                para interactuar con bases de datos relacionales. Sequelize se
+                utiliza para interactuar con bases de datos relacionales como
+                MySQL, PostgreSQL, SQLite y MSSQL. Sequelize se utiliza para
+                interactuar con bases de datos relacionales como MySQL,
+                PostgreSQL, SQLite y MSSQL.
+              </p>
+            </div>
+          </div>
+          <!-- JWT -->
+          <div class="tecnologia-card">
+            <div class="tecnologia-icon">
+              <img src="../../../assets/icons/JWT_logo.svg" alt="JWT" />
+            </div>
+            <div class="tecnologia-info">
+              <h3>JWT</h3>
+              <p>
+                JSON Web Token (JWT) es un estándar abierto basado en JSON para
+                crear tokens de acceso que afirman un cierto número de
+                reclamaciones. JWT se utiliza para autenticar y autorizar
+                usuarios en aplicaciones web y servidores. JWT se utiliza para
+                autenticar y autorizar usuarios en aplicaciones web y
+                servidores.
+              </p>
+            </div>
+          </div>
+          <!-- Bcrypt -->
+          <div class="tecnologia-card">
+            <div class="tecnologia-info">
+              <h3>Bcrypt</h3>
+              <p>
+                Bcrypt es una función de hash de contraseña de código abierto
+                diseñada por Niels Provos y David Mazières. Bcrypt se utiliza
+                para almacenar contraseñas de forma segura en bases de datos.
+                Bcrypt se utiliza para almacenar contraseñas de forma segura en
+                bases de datos.
               </p>
             </div>
           </div>
@@ -227,7 +279,52 @@
 
       <section class="avances content-block">
         <h2>Calidad del Software</h2>
-        <div class="documents-card--container"></div>
+        <div class="documents-card--container">
+          <div
+            class="document-card"
+            onclick="redirectToDocument('https://drive.google.com/file/d/1D60n1IAB7G55p5cKauN-dulS0ClzMIwk/view')"
+          >
+            <div class="icon-document">
+              <img src="../../../assets/icons/icons8-pdf-100.png" alt="PDF" />
+            </div>
+            <div class="document-info">
+              <p>Riesgos del proyecto</p>
+            </div>
+          </div>
+          <div
+            class="document-card"
+            onclick="redirectToDocument('https://drive.google.com/file/d/1ctbJo7BfkGFqpC3IFKQy8lDDsA2qEM-E/view')"
+          >
+            <div class="icon-document">
+              <img src="../../../assets/icons/icons8-pdf-100.png" alt="PDF" />
+            </div>
+            <div class="document-info">
+              <p>Ejercicio en Clase sobre PERT</p>
+            </div>
+          </div>
+          <div
+            class="document-card"
+            onclick="redirectToDocument('https://drive.google.com/file/d/1VhMdJ6k0Lhv1dzAxISe8cOJxLAwDaPO0/view')"
+          >
+            <div class="icon-document">
+              <img src="../../../assets/icons/icons8-pdf-100.png" alt="PDF" />
+            </div>
+            <div class="document-info">
+              <p>Modelos de Calidad</p>
+            </div>
+          </div>
+          <div
+            class="document-card"
+            onclick="redirectToDocument('https://drive.google.com/file/d/1GVs1UEj7nMVXo4SY2SFECmlAqoOpkBIa/view')"
+          >
+            <div class="icon-document">
+              <img src="../../../assets/icons/icons8-pdf-100.png" alt="PDF" />
+            </div>
+            <div class="document-info">
+              <p>Evaluación de Métricas SW</p>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="avances content-block">
         <h2>Pruebas</h2>
@@ -235,12 +332,113 @@
       </section>
       <section class="avances content-block">
         <h2>Documentación + Gestión de cambios</h2>
-        <div class="documents-card--container"></div>
+        <div class="documents-card--container">
+          <div
+            class="document-card"
+            onclick="redirectToDocument('https://drive.google.com/file/d/1z9IBwrL7155ThGEHN-Zx86mIJbtY5fcD/view')"
+          >
+            <div class="icon-document">
+              <img src="../../../assets/icons/icons8-pdf-100.png" alt="PDF" />
+            </div>
+            <div class="document-info">
+              <p>Identificación del Equipo para el Proyecto</p>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="investigaciones content-block">
-        <h2>Investigaciones</h2>
-        <div class="documents-card--container"></div>
+        <h2>Investigaciones/Talleres</h2>
+        <div class="documents-card--container">
+          <div
+            class="document-card"
+            onclick="redirectToDocument('https://drive.google.com/file/d/1St8clN8U3k84LUsmFNmurzCknLFsM2b1/view')"
+          >
+            <div class="icon-document">
+              <img src="../../../assets/icons/icons8-pdf-100.png" alt="PDF" />
+            </div>
+            <div class="document-info">
+              <p>Taller espina de pescado</p>
+            </div>
+          </div>
+          <div
+            class="document-card"
+            onclick="redirectToDocument('https://drive.google.com/file/d/1DpFIWfwj34RSDGwc9YLYraA6qWi8cxH7/view')"
+          >
+            <div class="icon-document">
+              <img src="../../../assets/icons/icons8-pdf-100.png" alt="PDF" />
+            </div>
+            <div class="document-info">
+              <p>Infografía evolución del software</p>
+            </div>
+          </div>
+          <div
+            class="document-card"
+            onclick="redirectToDocument('https://drive.google.com/file/d/1WpWHn037ImxeQ_niOqjlUMUwBE5mT4A-/view')"
+          >
+            <div class="icon-document">
+              <img src="../../../assets/icons/icons8-pdf-100.png" alt="PDF" />
+            </div>
+            <div class="document-info">
+              <p>Fichas bibliográficas de Ing. de Software en BECL</p>
+            </div>
+          </div>
+          <div
+            class="document-card"
+            onclick="redirectToDocument('https://drive.google.com/file/d/1rbhQZAwE5lY8cw7p2kqzkjTZT3z8od1H/view')"
+          >
+            <div class="icon-document">
+              <img src="../../../assets/icons/icons8-pdf-100.png" alt="PDF" />
+            </div>
+            <div class="document-info">
+              <p>Ética en Ing. de Software</p>
+            </div>
+          </div>
+          <div
+            class="document-card"
+            onclick="redirectToDocument('https://drive.google.com/file/d/1yJXfvbirrM178O2tK9FlJd9wwJMJQEqn/view')"
+          >
+            <div class="icon-document">
+              <img src="../../../assets/icons/icons8-pdf-100.png" alt="PDF" />
+            </div>
+            <div class="document-info">
+              <p>Ética en Ing. de Software - Anderson Patiño</p>
+            </div>
+          </div>
+          <div
+            class="document-card"
+            onclick="redirectToDocument('https://drive.google.com/file/d/1hGjkjiw_lsH-qqK-Z_nBPVrMOp6ZTOiV/view')"
+          >
+            <div class="icon-document">
+              <img src="../../../assets/icons/icons8-pdf-100.png" alt="PDF" />
+            </div>
+            <div class="document-info">
+              <p>Ética en Ing. de Software - Luis Soto</p>
+            </div>
+          </div>
+          <div
+            class="document-card"
+            onclick="redirectToDocument('https://drive.google.com/file/d/19uKS3iyDaCLl_euVi8SFyWsISO8kgosA/view')"
+          >
+            <div class="icon-document">
+              <img src="../../../assets/icons/icons8-pdf-100.png" alt="PDF" />
+            </div>
+            <div class="document-info">
+              <p>Caso de estudio de las subcontratas sospechosas</p>
+            </div>
+          </div>
+          <div
+            class="document-card"
+            onclick="redirectToDocument('https://drive.google.com/file/d/1L9xixaO2010VMSlfpbPhQiE1tQ2utj4H/view')"
+          >
+            <div class="icon-document">
+              <img src="../../../assets/icons/icons8-pdf-100.png" alt="PDF" />
+            </div>
+            <div class="document-info">
+              <p>Caso de estudio truncaje de las pruebas</p>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="apuntes content-block">
